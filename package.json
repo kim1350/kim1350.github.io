@@ -1,9 +1,10 @@
 {
     "scripts": {
-        "dev": "vite dev",
+        "dev": "vite",
         "build": "vite build",
         "export": "vite export",
-        "preview": "vite preview" 
+        "preview": "vite preview --port 5050",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
     },
     "dependencies": {
         "next": "^12.1.4",

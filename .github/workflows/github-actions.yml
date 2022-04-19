@@ -15,9 +15,8 @@ jobs:
       - name: Build
         run: |
           npm ci
-          npm install 
           npm run build
-          npm run export
+          npm run dev
           touch out/.nojekyll
 
       - name: Deploy on GitHub Pages
