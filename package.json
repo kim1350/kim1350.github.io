@@ -2,7 +2,8 @@
     "scripts": {
         "dev": "vite dev",
         "build": "vite build",
-        "preview": "vite preview"  
+        "export": "vite export",
+        "preview": "vite preview" 
     },
     "dependencies": {
         "next": "^12.1.4",
